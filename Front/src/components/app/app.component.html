@@ -1,0 +1,11 @@
+
+<h6>Hello</h6>
+
+<section>
+    <div class="price-cards-container">
+        <div *ngFor="let conversion of this.currencies(); trackBy: getConversionText"
+            class="price-card-container">
+            <price-card [conversion]="conversion"></price-card>    
+        </div> 
+    </div>    
+</section>

@@ -1,0 +1,11 @@
+.price-cards-container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &> .price-card-container {
+        margin-bottom: .8rem;
+    }
+}
