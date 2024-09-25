@@ -1,5 +1,12 @@
 import { EventEmitter, Injectable } from "@angular/core";
-
+/**
+ *
+ * @class BrowserTabVisibilityService
+ * 
+ * @summary
+ * Class managing the notifications when the tab is in background
+ * 
+ */
 @Injectable({
     providedIn: 'root'
 })

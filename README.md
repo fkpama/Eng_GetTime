@@ -24,7 +24,9 @@
 
 Le front se connnecte sur le Back sur le port [localhost 8181](https://github.com/fkpama/Eng_GetTime/blob/main/Front/src/environments/environment.ts#L5) par default, l'affichage des donnees se faisant par [l'AppComponent](https://github.com/fkpama/Eng_GetTime/blob/main/Front/src/components/app/app.component.html#L5)
 
-L'application utilise Angular 18, et sa nouvelle API de signalement. Aucune authentification implementee pour le moment
+L'application utilise Angular 18, et sa nouvelle API de signalement. Aucune authentification implementee pour le moment.
+
+[Voir documentation](./doc/front.md)
 
 ## Environnement de developpement
 

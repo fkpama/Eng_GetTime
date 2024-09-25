@@ -5,7 +5,14 @@ import { CurrencyConversion } from "../lib/CurrencyConversion";
 import { AppConfigService } from "./app-config.service";
 
 
-
+/**
+ *
+ * @class PriceService
+ * 
+ * @summary
+ * Class managing the WebSocket connection to the Back-End.
+ * 
+ */
 @Injectable({
     providedIn: 'root'
 })
